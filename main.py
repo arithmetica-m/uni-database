@@ -8,7 +8,7 @@ connection.execute("""
     CREATE TABLE IF NOT EXISTS University (
         university_id INTEGER PRIMARY KEY,
         name TEXT NOT NULL,
-        city TEXT,
+        city TEXT
     )
 """)
 
